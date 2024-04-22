@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("21.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0; 
+}
+
+h1 {
+    /* color: #ff0000; */
+    color: transparents;
+}
+
+p {
+    color: #7d0707;
+    font: 2em sans-serif;
+}
+
+#randomNumber:hover{
+    color: purple;
+}
+
+#myBtn:hover{
+    color: greenyellow;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font: 1em sans-serif;
+    border-radius: 3px;
+}
+
+
+button:hover {
+    background-color: #ff0000;
+    transition: 1.3s;
+}
+
+#guessField {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+input:hover{
+    border-color: #ff0000;
+    transition: 1.3s;
+}
